@@ -23,5 +23,20 @@
     "eslint": "^9",
     "eslint-config-next": "15.4.2",
     "@eslint/eslintrc": "^3"
-  }
+  },
+  "description": "Update",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritik2177/student-stay-room-web-application.git"
+  },
+  "keywords": [
+    "room-booking"
+  ],
+  "author": "Ritik Kumar and Aryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritik2177/student-stay-room-web-application/issues"
+  },
+  "homepage": "https://github.com/ritik2177/student-stay-room-web-application#readme"
 }
