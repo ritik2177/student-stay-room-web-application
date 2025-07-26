@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav
       className={cn(
-        "fixed top-4 left-4 right-4 z-50 bg-white/70 backdrop-blur-md border border-gray-200 rounded-lg shadow-md"
+        "fixed top-4 left-4 right-4 z-50 bg-white/10 backdrop-blur border border-gray-200 rounded-lg shadow-md mx-0 md:mx-28"
       )}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center h-16 px-4 sm:px-6 lg:px-8">
@@ -19,19 +19,19 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-4">
           <a
             href="#hotel"
-            className="px-4 py-2 rounded-md hover:bg-blue-100 transition-colors duration-200"
+            className="px-4 py-2 rounded-md hover:bg-white/30 transition-colors duration-200"
           >
             Hotel
           </a>
           <a
             href="#contact"
-            className="px-4 py-2 rounded-md hover:bg-blue-100 transition-colors duration-200"
+            className="px-4 py-2 rounded-md hover:bg-white/30 transition-colors duration-200"
           >
             Contact
           </a>
           <a
             href="#dashboard"
-            className="px-4 py-2 rounded-md hover:bg-blue-100 transition-colors duration-200"
+            className="px-4 py-2 rounded-md hover:bg-white/30 transition-colors duration-200"
           >
             Dashboard
           </a>
