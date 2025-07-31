@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className="fixed top-4 left-4 right-4 z-50 bg-white/10 backdrop-blur border border-gray-200 rounded-lg shadow-md mx-0 md:mx-28">
       <div className="max-w-7xl mx-auto flex justify-between items-center h-16 px-4 sm:px-6 lg:px-8">
         {/* Left: Company name */}
-        <div className="text-2xl font-bold text-gray-800">MyCompany</div>
+        <div className="text-2xl font-bold text-gray-800">StayNest</div>
 
         {/* Center: Desktop nav links */}
         <div className="hidden md:flex space-x-4">
@@ -25,7 +25,7 @@ export default function Navbar() {
             href="#contact"
             className="px-4 py-2 rounded-md hover:bg-white/30 transition-colors duration-200"
           >
-            Contact
+            About Us
           </a>
           <a
             href="#dashboard"
@@ -60,7 +60,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white/90 backdrop-blur-md border-t border-gray-200 overflow-hidden">
+        <div className="md:hidden bg-white/30 backdrop-blur-md border-t border-gray-200 overflow-hidden">
           <div className="flex flex-col px-4 py-3 space-y-1">
             <a
               href="#hotel"

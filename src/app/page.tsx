@@ -13,7 +13,7 @@ export default function Home() {
           {/* Text Section */}
           <div className="mb-3 ml-4">
             <h1 className="text-2xl sm:text-3xl md:text-5xl max-w-96 font-bold mb-1 drop-shadow-lg text-gray-500">
-              Welcome to Student Stey
+              Welcome to Student Stay
             </h1>
             <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-[500px] text-gray-400 drop-shadow-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magni
@@ -22,7 +22,7 @@ export default function Home() {
           </div>
 
           {/* Search Section */}
-          <div className="w-full max-w-4xl bg-white/70 backdrop-blur-md rounded-xl p-4 shadow-lg">
+          <div className="w-full max-w-3xl bg-white/70 backdrop-blur-md rounded-xl p-4 shadow-lg">
             <div className="flex flex-col md:flex-row gap-4 w-full">
 
               <input
@@ -38,7 +38,7 @@ export default function Home() {
 
               <input
                 type="number"
-                placeholder="Enter area PIN Code"
+                placeholder="Number of Guest"
                 className="w-full p-3 rounded-md border border-gray-300 placeholder-gray-500 text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
 
