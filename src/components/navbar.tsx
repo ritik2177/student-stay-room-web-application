@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-// import RegisterModal from "@/components/modal";
+import RegisterModal from "@/components/modal";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,8 +11,10 @@ export default function Navbar() {
     <nav className="fixed top-4 left-4 right-4 z-50 bg-white/10 backdrop-blur border border-gray-200 rounded-lg shadow-md mx-0 md:mx-28">
       <div className="max-w-7xl mx-auto flex justify-between items-center h-16 px-4 sm:px-6 lg:px-8">
         {/* Left: Company name */}
-        <div className="text-2xl font-bold text-gray-800">StayNest</div>
-
+        <div className="flex items-center space-x-2">
+          <img src="/image/logo.png" className="w-8 h-8" alt="" />
+          <div className="text-2xl font-bold text-gray-800">StayNest</div>
+        </div>
         {/* Center: Desktop nav links */}
         <div className="hidden md:flex space-x-4">
           <a
@@ -43,7 +45,7 @@ export default function Navbar() {
           >
             <img className="w-16 h-16" src="/image/login.png" alt="Login" />
           </button>
-          {/* <RegisterModal open={openModal} handleClose={() => setOpenModal(false)} /> */}
+          <RegisterModal open={openModal} handleClose={() => setOpenModal(false)} />
         </div>
 
         {/* Mobile Toggle Button */}

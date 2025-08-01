@@ -12,10 +12,10 @@ export default function Home() {
 
           {/* Text Section */}
           <div className="mb-3 ml-4">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl max-w-96 font-bold mb-1 drop-shadow-lg text-gray-500">
+            <h1 className="text-2xl sm:text-3xl md:text-5xl max-w-96 font-bold mb-1 drop-shadow-lg text-gray-600">
               Welcome to Student Stay
             </h1>
-            <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-[500px] text-gray-400 drop-shadow-sm">
+            <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-[500px] text-gray-500 drop-shadow-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magni
               necessitatibus beatae quia facilis eaque dolor.
             </p>
@@ -42,7 +42,7 @@ export default function Home() {
                 className="w-full p-3 rounded-md border border-gray-300 placeholder-gray-500 text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
 
-              <button className="w-full md:w-auto bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-md transition">
+              <button className="w-full md:w-auto bg-purple-700 hover:bg-purple-800 text-white px-6 py-3 rounded-md transition">
                 Search
               </button>
 
